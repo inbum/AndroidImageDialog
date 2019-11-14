@@ -8,5 +8,5 @@ custom dialog fragment를 이용해 viewpager 내에세 이미지 보여주는 �
 [Glide] ( https://github.com/bumptech/glide )
 
 # 예외처리 내용
-PhotoView 라이브러리 사용시 발생되는 Exception처리 완료.
-java.lang.IllegalArgumentException: pointerIndex out of range Exception - dispatchTouchEvent
+- PhotoView 라이브러리 사용시 발생되는 Exception처리 완료
+  java.lang.IllegalArgumentException: pointerIndex out of range Exception - dispatchTouchEvent
