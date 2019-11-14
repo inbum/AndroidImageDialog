@@ -2,4 +2,5 @@
 <resources>
     <color name="colorDialogText">@android:color/darker_gray</color>
     <color name="colorDialogBackground">@android:color/black</color>
+    <color name="colorPlaceholderDrawable">@android:color/darker_gray</color>
 </resources>

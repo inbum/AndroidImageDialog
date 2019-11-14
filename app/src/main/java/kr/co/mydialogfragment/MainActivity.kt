@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener{
             val fm = supportFragmentManager
             val imageDialogFragment = ImageDialogFragment.newInstance(arrayListOf(
-                "https://dummyimage.com/600x400/ffea00/070924",
-                "https://dummyimage.com/300x400/ffea00/070924",
-                "https://dummyimage.com/1200x400/ffea00/070924",
-                "https://dummyimage.com/200x1400/ffea00/070924"
+                "http://lorempixel.com/1800/1100/animals",
+                "http://lorempixel.com/410/1900/cats",
+                "http://lorempixel.com/1910/555/sports"
             ))
+            imageDialogFragment
             imageDialogFragment.show(fm, "ImageDialogFragment")
         }
     }

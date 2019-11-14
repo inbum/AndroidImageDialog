@@ -30,6 +30,9 @@ class ImageDialogFragment : DialogFragment() {
 
         val args = arguments
         imgList = args?.getStringArrayList(EXTRA_IMG_URLS) as ArrayList<String>
+
+        // 스타일 적용
+        setStyle(STYLE_NORMAL, R.style.CustomFullDialog)
     }
 
     override fun onCreateView(

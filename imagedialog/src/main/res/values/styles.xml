@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomFullDialog">
+        <!-- 부모 뷰의 크기 및 위치 상관없이 부모 뷰 위에 띄우는걸 허용 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 투명 다이얼로그 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

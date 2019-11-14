@@ -1,5 +1,3 @@
 <resources>
     <string name="app_name">ImageDialog</string>
-    <string name="click_btn">Button</string>
-    <string name="click_btn_desc">click on the below button to show the dialog fragment</string>
 </resources>

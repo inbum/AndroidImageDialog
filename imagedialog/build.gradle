@@ -12,10 +12,16 @@ android {
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
-
+        versionName "1.0.0"
+        archivesBaseName = "inbum_image_dialog"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    libraryVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${archivesBaseName}-${defaultConfig.versionName}-${variant.buildType.name}.aar"
+        }
     }
 
     buildTypes {
@@ -39,4 +45,6 @@ dependencies {
     kapt "android.arch.lifecycle:compiler:1.0.0"
     kapt 'com.github.bumptech.glide:compiler:4.9.0'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    // circular progress drawable
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
 }
