@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorDialogText">@android:color/darker_gray</color>
-    <color name="colorDialogBackground">@android:color/black</color>
-    <color name="colorPlaceholderDrawable">@android:color/darker_gray</color>
+    <color name="imageDialogText">@android:color/darker_gray</color>
+    <color name="imageDialogBackground">@android:color/black</color>
+    <color name="imageDialogPlaceholderDrawable">@android:color/darker_gray</color>
 </resources>

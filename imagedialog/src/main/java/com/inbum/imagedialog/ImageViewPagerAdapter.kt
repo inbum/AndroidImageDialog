@@ -21,9 +21,9 @@ class ImageViewPagerAdapter(private val imgList: ArrayList<String>) : PagerAdapt
         circularProgressDrawable.strokeWidth = 5f
         circularProgressDrawable.centerRadius = 50f
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            circularProgressDrawable.setColorSchemeColors(container?.context.getColor(R.color.colorPlaceholderDrawable))
+            circularProgressDrawable.setColorSchemeColors(container?.context.getColor(R.color.imageDialogPlaceholderDrawable))
         } else {
-            circularProgressDrawable.setColorSchemeColors(container?.context.resources.getColor(R.color.colorPlaceholderDrawable))
+            circularProgressDrawable.setColorSchemeColors(container?.context.resources.getColor(R.color.imageDialogPlaceholderDrawable))
         }
         circularProgressDrawable.start()
 
